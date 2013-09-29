@@ -3,7 +3,11 @@ jsphp
 
 **jsphp** is a *pseudo-implementation* of the **ECMA 262** standard (JavaScript 8.5.1) for *PHP 5.3+*, including JSBoolean, JSNumber, JSString, JSObject, JSArray, JSFunction, JSRegExp, JSDate, JSError and JSMath, aswell as prototype inheritence and chaining.
 
-To use *JavaScript PHP* include "js.php" in your file.
+To use the package it's highly recommended to use a [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compatible autoloader for the required classes.
+
+You can find a fully compatible autoloader [here](https://github.com/SOLFENIX/php-autoload).
+
+To use *JavaScript PHP* first include "js.php" in your file.
 
 ```php
 require( 'path/to/js.php' );
